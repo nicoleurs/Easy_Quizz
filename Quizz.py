@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def quizz(questions:list[str],answers:list[str],chances:int):
 
     user_answers = [None] * len(questions)
