@@ -21,7 +21,7 @@ def quizz(questions:list[str],answers:list[str],guesses:int):
                         break
             else: 
                 print(f"Your answer : {user_answers[i]}")
-                print('Good job! This is the right answer')
+                print('Good job! This is the right answer\n')
     if guesses > 0:
         print("Congratulations, you win!")
         
@@ -32,9 +32,11 @@ print("First set up the quizz!\n")
 
 q = input("Enter your questions here! Please separate them by a comma: ")
 question = q.split(',')
+question = [item.strip() for item in question]
 
 a = input("Enter your answers here! Please separate them by a comma: ")
 answer = a.split(',')
+answer = [item.strip() for item in answer]
 
 guess = int(input("Enter number of guesses : "))
 
