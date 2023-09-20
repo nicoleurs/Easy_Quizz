@@ -1,5 +1,4 @@
 # Easy_Quizz
-Easy quizz coded in python !
 
 This quizz is coded in python. 
 
