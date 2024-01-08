@@ -13,7 +13,8 @@ Whitespaces are well managed, no need to forgo their usage.
 ### *Usage*
 
 Just run the script with python ! 
-'''
+
+```python
 python Quizz.py
-'''
+```
 
