@@ -10,6 +10,10 @@ Then the answers are cleared from the terminal for another person to try and fin
 
 Whitespaces are well managed, no need to forgo their usage.
 
-### **Important**
-**The clear feature is a shell bash command used in the python script** so usage in of the script in windows won't work. 
+### *Usage*
+
+Just run the script with python ! 
+'''
+python Quizz.py
+'''
 
